@@ -1,0 +1,1536 @@
+<!DOCTYPE html>
+<html lang="en-US"><!--<![endif]--><!-- Mirrored from wpbingosite.com/wordpress/kowine/contact/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Apr 2022 05:48:07 GMT --><!-- Added by HTTrack --><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><!-- /Added by HTTrack -->
+<meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(e){this.triggerEvents=e,this.eventOptions={passive:!0},this.userEventListener=this.triggerListener.bind(this),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventListener,e.eventOptions)))}_removeUserInteractionListener(e){this.triggerEvents.forEach((t=>window.removeEventListener(t,e.userEventListener,e.eventOptions)))}triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}async _loadEverythingNow(){this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async),await this._triggerDOMContentLoaded(),await this._triggerWindowLoad(),window.dispatchEvent(new Event("rocket-allScriptsLoaded"))}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._requestAnimFrame(),new Promise((t=>{const n=document.createElement("script");let r;[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type",r=e.nodeValue),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t()),e.parentNode.replaceChild(n,e)}))}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){var e=document.createDocumentFragment();[...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async].forEach((t=>{const n=t.getAttribute("src");if(n){const t=document.createElement("link");t.href=n,t.rel="preload",t.as="script",e.appendChild(t)}})),document.head.appendChild(e)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){let n=e[t];Object.defineProperty(e,t,{get:()=>n||function(){},set(r){e["rocket"+t]=n=r}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._requestAnimFrame(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-load")),await this._requestAnimFrame(),window.rocketonload&&window.rocketonload(),await this._requestAnimFrame(),this.allJQueries.forEach((e=>e(window).trigger("rocket-jquery-load"))),window.dispatchEvent(new Event("rocket-pageshow")),await this._requestAnimFrame(),window.rocketonpageshow&&window.rocketonpageshow()}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,r=document.createRange(),i=n.parentElement;let o=e.get(n);void 0===o&&(o=n.nextSibling,e.set(n,o));const a=document.createDocumentFragment();r.setStart(a,0),a.appendChild(r.createContextualFragment(t)),i.insertBefore(a,o)}}async _requestAnimFrame(){return new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts(["keydown","mousemove","touchmove","touchstart","touchend","wheel"]);e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();</script>
+	
+	<meta name="viewport" content="width=device-width">
+	<link rel="profile" href="http://192.168.3.27:8899/gmpg.org/xfn/11.html">
+	<title>Contact – Kowine – Wine Store WooCommerce Theme</title><link rel="preload" as="style" href="Contact_files/csse210.css"><link rel="stylesheet" href="Contact_files/csse210.css" media="all" onload="this.media='all'"><noscript><link rel="stylesheet" href="../../../../fonts.googleapis.com/csse210.css?family=Marcellus%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap" /></noscript><link rel="preload" as="style" href="Contact_files/css27fbb.css"><link rel="stylesheet" href="Contact_files/css27fbb.css" media="all" onload="this.media='all'"><noscript><link rel="stylesheet" href="../../../../fonts.googleapis.com/css27fbb.css?family=Open+Sans%3Aital%2Cwght%400%2C300%3B0%2C400%3B0%2C600%3B0%2C700%3B0%2C800%3B1%2C300%3B1%2C400%3B1%2C600%3B1%2C700%3B1%2C800&amp;ver=5.8.3&amp;family=Marcellus&amp;ver=5.8.3&amp;display=swap" /></noscript><link rel="stylesheet" href="Contact_files/f29097c77089ea9fbf1815ab5743fb0d.css" media="all" data-minify="1">
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="http://192.168.3.27:8899/fonts.googleapis.com/index.html">
+<link href="http://192.168.3.27:8899/fonts.gstatic.com/index.html" crossorigin="" rel="preconnect">
+<link rel="alternate" type="application/rss+xml" title="Kowine - Wine Store WooCommerce Theme » Feed" href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/feed/index.html">
+<link rel="alternate" type="application/rss+xml" title="Kowine - Wine Store WooCommerce Theme » Comments Feed" href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/comments/feed/index.html">
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	
+
+
+
+<style id="woocommerce-inline-inline-css" type="text/css">
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+
+
+
+
+
+
+<style id="woosw-frontend-inline-css" type="text/css">
+.woosw-area .woosw-inner .woosw-content .woosw-content-bot .woosw-notice { background-color: #ff2556; } .woosw-area .woosw-inner .woosw-content .woosw-content-bot .woosw-content-bot-inner .woosw-page a:hover, .woosw-area .woosw-inner .woosw-content .woosw-content-bot .woosw-content-bot-inner .woosw-continue:hover { color: #ff2556; } 
+</style>
+
+
+
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='kowine-ie-css'  href='https://wpbingosite.com/wordpress/kowine/wp-content/themes/kowine/css/ie.css?ver=20131205' type='text/css' media='all' />
+<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style id="elementor-frontend-inline-css" type="text/css">
+@font-face{font-family:eicons;src:url(../wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons0b93.eot?5.10.0);src:url(https://wpbingosite.com/wordpress/kowine/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0#iefix) format("embedded-opentype"),url(https://wpbingosite.com/wordpress/kowine/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.10.0) format("woff2"),url(https://wpbingosite.com/wordpress/kowine/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.10.0) format("woff"),url(https://wpbingosite.com/wordpress/kowine/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.10.0) format("truetype"),url(https://wpbingosite.com/wordpress/kowine/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.10.0#eicon) format("svg");font-weight:400;font-style:normal}
+</style>
+
+
+
+<script type="text/template" id="tmpl-variation-template">
+	<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
+	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
+	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
+</script>
+<script type="text/template" id="tmpl-unavailable-variation-template">
+	<p>Sorry, this product is unavailable. Please choose a different combination.</p>
+</script>
+<script type="text/javascript" src="Contact_files/jquery_006.js" id="jquery-core-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/jquery-migrate.js" id="jquery-migrate-js" defer="defer"></script>
+<script type="text/javascript" id="buy-together-frontend-js-extra">
+/* <![CDATA[ */
+var buy_together = {"ajaxurl":"https:\/\/wpbingosite.com\/wordpress\/kowine\/wp-admin\/admin-ajax.php","security":"29cfc7e510","text":{"for_num_of_items":"For {{number}} item(s)","add_to_cart_text":"Add All To Cart","adding_to_cart_text":"Adding To Cart...","view_cart":"View cart","no_product_selected_text":"You must select at least one product","add_to_cart_success":"{{number}} product(s) was successfully added to your cart.","add_to_cart_fail_single":"One product is out of stock.","add_to_cart_fail_plural":"{{number}} products were out of stocks."},"price_format":"%1$s%2$s","price_decimals":"2","price_thousand_separator":",","price_decimal_separator":".","currency_symbol":"$","wc_tax_enabled":"","cart_url":"https:\/\/wpbingosite.com\/wordpress\/kowine\/cart\/","ex_tax_or_vat":""};
+/* ]]> */
+</script>
+<script data-minify="1" type="text/javascript" src="Contact_files/frontend74c4_002.js" id="buy-together-frontend-js" defer="defer"></script>
+<link rel="https://api.w.org/" href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/wp-json/index.html"><link rel="alternate" type="application/json" href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/wp-json/wp/v2/pages/15115.json"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/xmlrpc0db0.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 5.8.3">
+<meta name="generator" content="WooCommerce 5.7.2">
+<link rel="canonical" href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/contact/index.html">
+<link rel="shortlink" href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/indexfaee.html?p=15115">
+<link rel="alternate" type="application/json+oembed" href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/wp-json/oembed/1.0/embedcfd6.json?url=https%3A%2F%2Fwpbingosite.com%2Fwordpress%2Fkowine%2Fcontact%2F">
+<link rel="alternate" type="text/xml+oembed" href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/wp-json/oembed/1.0/embedeecf?url=https%3A%2F%2Fwpbingosite.com%2Fwordpress%2Fkowine%2Fcontact%2F&amp;format=xml">
+<meta name="framework" content="Redux 4.3.1">	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	        <style>
+            .tawcvs-swatches {
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-bottom: 0px;
+                margin-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                padding-left: 0px;
+            }
+
+            .tawcvs-swatches .swatch {
+             margin-top: 0px !important;
+                margin-right: 0px !important;
+                margin-bottom: 0px !important;
+                margin-left: 0px !important;
+                padding-top: 0px !important;
+                padding-right: 0px !important;
+                padding-bottom: 0px !important;
+                padding-left: 0px !important;
+            }
+
+            /*tooltip*/
+            .tawcvs-swatches .swatch .swatch__tooltip {
+             width: px;
+                max-width: px;
+                line-height: 1;
+            }
+        </style>
+		<meta name="generator" content="Powered by Slider Revolution 6.5.3 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
+<link rel="icon" href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/wp-content/uploads/2020/02/thumb.png" sizes="32x32">
+<link rel="icon" href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/wp-content/uploads/2020/02/thumb.png" sizes="192x192">
+<link rel="apple-touch-icon" href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/wp-content/uploads/2020/02/thumb.png">
+<meta name="msapplication-TileImage" content="https://wpbingosite.com/wordpress/kowine/wp-content/uploads/2020/02/thumb.png">
+<script type="text/javascript">function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {				 
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
+				try {								
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+						newh = Math.max(e.mh,window.RSIH);					
+					else{					
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,						
+							sl;					
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];									
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}				
+					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+					document.getElementById(e.c).height = newh+"px";
+					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}					   
+			//});
+		  };</script>
+		<style type="text/css" id="wp-custom-css">
+			.bwp-brand .item-image img{
+	width:auto;
+}
+.slick-carousel:not(.slick-initialized){
+	display:none;
+}
+.checkout-page-style-2 .woocommerce-NoticeGroup{
+	padding-top:110px;
+}		</style>
+		<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><link href="Contact_files/wp-polyfill.js" rel="preload" as="script"><link href="Contact_files/jquery_006.js" rel="preload" as="script"><link href="Contact_files/jquery-migrate.js" rel="preload" as="script"><link href="Contact_files/frontend74c4_002.js" rel="preload" as="script"><link href="Contact_files/regenerator-runtime.js" rel="preload" as="script"><link href="Contact_files/index74c4.js" rel="preload" as="script"><link href="Contact_files/jquery.js" rel="preload" as="script"><link href="Contact_files/add-to-cart.js" rel="preload" as="script"><link href="Contact_files/js.js" rel="preload" as="script"><link href="Contact_files/woocommerce.js" rel="preload" as="script"><link href="Contact_files/cart-fragments.js" rel="preload" as="script"><link href="Contact_files/core.js" rel="preload" as="script"><link href="Contact_files/mouse.js" rel="preload" as="script"><link href="Contact_files/slider.js" rel="preload" as="script"><link href="Contact_files/wpbingo74c4.js" rel="preload" as="script"><link href="Contact_files/jquery_007.js" rel="preload" as="script"><link href="Contact_files/newsletter74c4.js" rel="preload" as="script"><link href="Contact_files/filter74c4.js" rel="preload" as="script"><link href="Contact_files/perfect-scrollbar.js" rel="preload" as="script"><link href="Contact_files/frontend74c4_003.js" rel="preload" as="script"><link href="Contact_files/popper.js" rel="preload" as="script"><link href="Contact_files/bootstrap.js" rel="preload" as="script"><link href="Contact_files/jquery_005.js" rel="preload" as="script"><link href="Contact_files/slick.js" rel="preload" as="script"><link href="Contact_files/instafeed.js" rel="preload" as="script"><link href="Contact_files/jquery_003.js" rel="preload" as="script"><link href="Contact_files/jquery_002.js" rel="preload" as="script"><link href="Contact_files/jquery_004.js" rel="preload" as="script"><link href="Contact_files/360imagerotate74c4.js" rel="preload" as="script"><link href="Contact_files/photoswipe.js" rel="preload" as="script"><link href="Contact_files/photoswipe-ui-default.js" rel="preload" as="script"><link href="Contact_files/portfolio74c4.js" rel="preload" as="script"><link href="Contact_files/sly.js" rel="preload" as="script"><link href="Contact_files/functions74c4.js" rel="preload" as="script"><link href="Contact_files/underscore.js" rel="preload" as="script"><link href="Contact_files/wp-util.js" rel="preload" as="script"><link href="Contact_files/add-to-cart-variation.js" rel="preload" as="script"><link href="Contact_files/frontend74c4.js" rel="preload" as="script"><link href="Contact_files/webpack.js" rel="preload" as="script"><link href="Contact_files/frontend-modules.js" rel="preload" as="script"><link href="Contact_files/waypoints.js" rel="preload" as="script"><link href="Contact_files/swiper.js" rel="preload" as="script"><link href="Contact_files/share-link.js" rel="preload" as="script"><link href="Contact_files/dialog.js" rel="preload" as="script"><link href="Contact_files/frontend.js" rel="preload" as="script"><link href="Contact_files/preloaded-modules.js" rel="preload" as="script"><link href="Contact_files/rbtools.js" rel="preload" as="script"><link href="Contact_files/rs6.js" rel="preload" as="script"></head>
+<body class="page-template-default page page-id-15115 theme-kowine woocommerce-js contact banners-effect-12 elementor-default elementor-kit-9482 elementor-page elementor-page-15115 e--ua-firefox loaded" data-elementor-device-mode="desktop">
+<div id="page" class="hfeed page-wrapper">
+					<h1 class="bwp-title hide"><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/index.html" rel="home">Kowine – Wine Store WooCommerce Theme</a></h1>
+	<header id="bwp-header" class="bwp-header header-v3">
+					<div class="header-mobile">
+		<div class="container">
+			<div class="row">
+								<div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-3 header-left">
+					<div class="navbar-header">
+						<button type="button" id="show-megamenu" class="navbar-toggle">
+							<span>Menu</span>
+						</button>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 header-center">
+							<div class="wpbingoLogo">
+			<a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/index.html">
+									<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20400%2078'%3E%3C/svg%3E" alt="Kowine – Wine Store WooCommerce Theme" data-lazy-src="https://wpbingosite.com/wordpress/kowine/wp-content/webp-express/webp-images/uploads/2021/06/logo.png.webp" width="400" height="78"><noscript><img width="400" height="78" src="../wp-content/webp-express/webp-images/uploads/2021/06/logo.png.webp" alt="Kowine &#8211; Wine Store WooCommerce Theme"/></noscript>
+							</a>
+		</div> 
+					</div>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-3 header-right">
+															<div class="kowine-topcart dropdown">
+						<div class="dropdown mini-cart top-cart" data-text_added="Product was added to cart successfully!">
+	<div class="remove-cart-shadow"></div>
+  <a class="dropdown-toggle cart-icon" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	<div class="icons-cart"><i class="icon2-shopping-bag"></i><span class="cart-count">0</span></div>
+  </a>
+  <div class="dropdown-menu cart-popup">
+	<div class="remove-cart">
+		<a class="dropdown-toggle cart-remove" data-toggle="dropdown" data-hover="dropdown" data-delay="0" href="#" title="View your shopping cart">
+			Close<i class="icon_close"></i>
+		</a>
+	</div>
+	<div class="top-total-cart">Shopping Cart(0)</div>
+	<div class="cart-icon-big"></div>
+<ul class="cart_list product_list_widget">
+			<li class="empty">
+			<span>No products in the cart.</span>
+			<a class="go-shop" href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/index.html">GO TO SHOP			<i aria-hidden="true" class="arrow_right"></i></a>
+		</li>
+	</ul><!-- end product list -->
+<div class="free-order">Free Shipping on All <span>Orders Over $75</span></div>
+  </div>
+</div>					</div>
+									</div>
+							</div>
+		</div>
+				<div class="header-mobile-fixed">
+			<div class="shop-page">
+				<a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/index.html"><i class="wpb-icon-shop"></i></a>
+			</div>
+			<div class="my-account">
+				<div class="login-header">
+					<a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/my-account/index.html"><i class="icon-profile"></i></a>
+				</div>
+			</div>		
+			<!-- Begin Search -->
+						<div class="search-box">
+				<div class="search-toggle"><i class="wpb-icon-magnifying-glass"></i></div>
+			</div>
+						<!-- End Search -->
+						<div class="wishlist-box">
+				<a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/wishlist/index.html"><i class="wpb-icon-heart"></i></a>
+			</div>
+					</div>
+			</div>
+			<div class="header-desktop">
+						<div class="header-wrapper" data-sticky_header="0">
+				<div class="container">
+					<div class="container-inner">
+						<div class="row">
+							<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 header-left">
+										<div class="wpbingoLogo">
+			<a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/index.html">
+									<img src="Contact_files/logo.webp" alt="Kowine – Wine Store WooCommerce Theme" data-lazy-src="https://wpbingosite.com/wordpress/kowine/wp-content/webp-express/webp-images/uploads/2021/06/logo.png.webp" data-ll-status="loaded" class="entered lazyloaded" width="400" height="78"><noscript><img width="400" height="78" src="../wp-content/webp-express/webp-images/uploads/2021/06/logo.png.webp" alt="Kowine &#8211; Wine Store WooCommerce Theme"/></noscript>
+							</a>
+		</div> 
+								</div>
+							<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 text-center">
+								<div class="wpbingo-menu-mobile header-menu">
+									<div class="header-menu-bg">
+										<div class="wpbingo-menu-wrapper">
+			<div class="megamenu">
+				<nav class="navbar-default">
+					<div class="bwp-navigation primary-navigation navbar-mega" data-text_close="Close">
+						<div class="float-menu">
+<nav id="main-navigation" class="std-menu clearfix">
+<div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li class="level-0 menu-item-22368      menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  std-menu"><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/home-categories/index.html"><span class="menu-item-text">Home</span></a>
+<ul class="sub-menu">
+	<li class="level-1 menu-item-18915      menu-item menu-item-type-post_type menu-item-object-page  std-menu"><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/home-categories/index.html">Home Categories</a></li>
+	<li class="level-1 menu-item-18921      menu-item menu-item-type-post_type menu-item-object-page  std-menu"><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/home-classic/index.html">Home Classic</a></li>
+	<li class="level-1 menu-item-18914      menu-item menu-item-type-post_type menu-item-object-page menu-item-home  std-menu"><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/index.html">Home Clean</a></li>
+	<li class="level-1 menu-item-18916      menu-item menu-item-type-post_type menu-item-object-page  std-menu"><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/home-elegant/index.html">Home Elegant</a></li>
+	<li class="level-1 menu-item-18917      menu-item menu-item-type-post_type menu-item-object-page  std-menu"><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/home-modern/index.html">Home Modern</a></li>
+	<li class="level-1 menu-item-18918      menu-item menu-item-type-post_type menu-item-object-page  std-menu"><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/home-stronger/index.html">Home Stronger</a></li>
+	<li class="level-1 menu-item-18919      menu-item menu-item-type-post_type menu-item-object-page  std-menu"><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/home-stylish/index.html">Home Stylish</a></li>
+	<li class="level-1 menu-item-18920      menu-item menu-item-type-post_type menu-item-object-page  std-menu"><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/home-unique/index.html">Home Unique</a></li>
+</ul>
+<span class="grower close"> </span></li>
+<li class="level-0 menu-item-2985  menu-item-has-children    menu-item menu-item-type-post_type menu-item-object-page  mega-menu mega-menu-fullwidth-width"><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/index.html"><span class="menu-item-text">Shop</span></a><div class="sub-menu">		<div data-elementor-type="wp-post" data-elementor-id="9121" class="elementor elementor-9121" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-31faec0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="31faec0" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6232c7b" data-id="6232c7b" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-ee8295e content-megamenu elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ee8295e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-fca6470 wpb-col-sm-100" data-id="fca6470" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-c7ba056 title elementor-widget elementor-widget-heading" data-id="c7ba056" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Shop style</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c90cb7e elementor-widget elementor-widget-text-editor" data-id="c90cb7e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/index68fa.html?show-subcategories=hide&amp;show_page_title_bg=true">Shop Standard</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/indexaaf0.html?shop-layout=full">Shop Full</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/indexfddf.html?category_style=only_categories">Shop Only Categories</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/index3369.html?style-subcategories=icon_categories">Shop Icon Categories</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop.html">Shop Image Categories</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/product-category/red-wines/indexd68e.html?show_page_title_bg=true">Shop Sub Categories</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/index4d07.html?show-subcategories=true&amp;style-subcategories=shop_mini_categories">Shop Simple</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/indexd68e.html?show_page_title_bg=true">Shop Overlay Header</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/index.html">Shop Sidebar</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/indexaf48.html?category-view-mode=list">Shop List</a></li>
+</ul>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-984c9de wpb-col-sm-100" data-id="984c9de" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-07e9ae5 title elementor-widget elementor-widget-heading" data-id="07e9ae5" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Filter Layout</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-407c7e0 elementor-widget elementor-widget-text-editor" data-id="407c7e0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop.html">Sidebar</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/index9b51.html?category_style=filter_sideout">Filter Side Out<span class="hot">hot</span></a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/index74e4.html?category_style=filter_dropdown">Filter Dropdown</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/indexbe32.html?category_style=filter_ontop">Filter On Top</a></li>
+<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/indexcc57.html?category_style=filter_drawer">Filter Drawer</a></li>
+</ul>					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-2c216b2 title elementor-widget elementor-widget-heading" data-id="2c216b2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Shop loader</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5d99be3 elementor-widget elementor-widget-text-editor" data-id="5d99be3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/indexb677.html?shop_paging=shop-pagination">Shop Pagination</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/indexce49.html?shop_paging=shop-infinity">Shop Infinity<span class="hot">hot</span></a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/index0eb4.html?shop_paging=shop-loadmore">Shop Load More</a></li>
+</ul>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-cf68191 wpb-col-sm-100" data-id="cf68191" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-22efdac title elementor-widget elementor-widget-heading" data-id="22efdac" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Hover style</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-912da5a elementor-widget elementor-widget-text-editor" data-id="912da5a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/index23ba.html?layout_shop=1">Hover Style 1</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/index32b5.html?layout_shop=2">Hover Style 2</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/index22aa.html?layout_shop=3">Hover Style 3</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/indexe3be.html?layout_shop=4">Hover Style 4<span class="hot">hot</span></a></li>
+<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/indexce2b.html?layout_shop=5">Hover Style 5<span class="hot">hot</span></a></li>
+</ul>					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-b0f0b5b title elementor-widget elementor-widget-heading" data-id="b0f0b5b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Woo Pages</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e1e1e1a elementor-widget elementor-widget-text-editor" data-id="e1e1e1a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/order-tracking/index.html">Order Tracking</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/my-account/index.html">Login</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/wishlist/index.html">Wishlist</a></li>
+</ul>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-8d30036 wpb-col-sm-100" data-id="8d30036" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-25718ba title elementor-widget elementor-widget-heading" data-id="25718ba" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Mini cart</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-8e04f7b elementor-widget elementor-widget-text-editor" data-id="8e04f7b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/index3361.html?cart-layout=popup">Side Out Light</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/indexed9f.html?cart-layout=popup&amp;cart-style=dark">Side Out Dark</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/index.html">Dropdown</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/cart/index.html">Cart Page</a></li>
+</ul>					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-24868fd title elementor-widget elementor-widget-heading" data-id="24868fd" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Checkout Style</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-92114cc elementor-widget elementor-widget-text-editor" data-id="92114cc" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/checkout/index.html">Checkout Classic</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/checkout/indexb7a3.html?checkout_page_style=checkout-page-style-2">Checkout Mordern<span class="hot">hot</span></a></li>
+</ul>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		</div><span class="grower close"> </span></li>
+<li class="level-0 menu-item-17678  menu-item-has-children    menu-item menu-item-type-post_type menu-item-object-product  mega-menu mega-menu-fullwidth-width"><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/donec-a-enim-a-ipsum-lobortis-blandit-interdum/index.html"><span class="menu-item-text">Product</span></a><div class="sub-menu">		<div data-elementor-type="wp-post" data-elementor-id="16554" class="elementor elementor-16554" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-7f4de8c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7f4de8c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-09b0239" data-id="09b0239" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-9a0cbdd content-megamenu elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9a0cbdd" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-8327fba wpb-col-sm-100" data-id="8327fba" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-f952e43 title elementor-widget elementor-widget-heading" data-id="f952e43" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Product featured</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-420d842 elementor-widget elementor-widget-text-editor" data-id="420d842" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/morbi-vel-arcu-scelerisque-facilisis-elit-vitae/indexe5c8.html?show-sticky-cart=true">Sticky ATC</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/aliquam-id-lorem-vel-nisl-blandit-dapibus/index.html">Video Inner</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/aliquam-id-lorem-vel-nisl-blandit-dapibus/index64ae.html?video-style=popup">Video Popup</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/in-hac-habitasse-platea-dictumst-tempor-vet/index.html">360 Degree</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/morbi-vel-arcu-scelerisque-facilisis-elit-vitae/index.html">Countdown</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/proin-malesuada-ligula-et-arcu-tincidunt-bibendum/index.html">Buy Together</a></li>
+</ul>					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-fa4c0ce title elementor-widget elementor-widget-heading" data-id="fa4c0ce" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Description Style</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-0370dd4 elementor-widget elementor-widget-text-editor" data-id="0370dd4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/sed-vel-metus-eu-mi-commodo-mollis-vitae/index9125.html?description-style=tab">Description Tab</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/sed-vel-metus-eu-mi-commodo-mollis-vitae/index423b.html?description-style=accordion">Description Accordion</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/sed-vel-metus-eu-mi-commodo-mollis-vitae/index8f75.html?description-style=full-content">Description Full Content</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/sed-vel-metus-eu-mi-commodo-mollis-vitae/index3b4a.html?description-style=vertical">Description Vertical</a></li>
+</ul>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-d0f661d wpb-col-sm-100" data-id="d0f661d" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-50398ef title elementor-widget elementor-widget-heading" data-id="50398ef" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Product Type</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3b029a9 elementor-widget elementor-widget-text-editor" data-id="3b029a9" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/donec-a-enim-a-ipsum-lobortis-blandit-interdum/index.html">Simple Product</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/senean-a-turpis-fermentum-accumsan-urna-a/index.html">Group Product</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/phasellus-rhoncus-vulputate-eros-ac-ultrices-magna/index.html">Variable Size  Product</a></li>
+<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/nunc-nibh-elit-mollis-nec-ornare-vel-elit/index.html">Variable Vintage Product</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/in-hac-habitasse-platea-dictumst-tempor-mollis/index.html">External &amp; Affiliate Product</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/sed-dolor-tellus-rhoncus-viverra-aliquam-egestas/index.html">Out of stock</a></li>
+</ul>					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-f09354e title elementor-widget elementor-widget-heading" data-id="f09354e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">zoom effect</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-204e4d5 elementor-widget elementor-widget-text-editor" data-id="204e4d5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/sed-aliquam-viverra-consectetur-auctor-laoreet-erat/index.html">Autozoom</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/sed-aliquam-viverra-consectetur-auctor-laoreet-erat/index3446.html?zoom-type=lens">Lens zoom<span class="hot">hot</span></a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/sed-aliquam-viverra-consectetur-auctor-laoreet-erat/indexd838.html?zoom-type=window">Magic zoom<span class="hot">hot</span></a></li>
+</ul>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-4608bc5 wpb-col-sm-100" data-id="4608bc5" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-892a8ce title elementor-widget elementor-widget-heading" data-id="892a8ce" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Product Gallery</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6dfa151 elementor-widget elementor-widget-text-editor" data-id="6dfa151" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/ut-eu-lacus-fringilla-tempor-tellus-nec-consequat-quam/index5900.html?layout-thumbs=scroll">Scroll</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/nunc-at-tristique-nulla-ac-sagittis-nulla/index4188.html?position-thumbs=left">Left Thumbnail</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/nunc-at-tristique-nulla-ac-sagittis-nulla/index2540.html?position-thumbs=right">Right Thumbnail</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/nunc-at-tristique-nulla-ac-sagittis-nulla/indexab48.html?position-thumbs=bottom">Bottom Thumbnail</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/nunc-at-tristique-nulla-ac-sagittis-nulla/index0048.html?position-thumbs=outsite">Outside Thumbnail</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/nunc-at-tristique-nulla-ac-sagittis-nulla/index1633.html?layout-thumbs=grid">Gird Style</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/nunc-at-tristique-nulla-ac-sagittis-nulla/indexd3a4.html?layout-thumbs=one_column">One Column</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/aliquam-quis-enim-diam-commodo-leo-sed/index10d4.html?layout-thumbs=slider">Slider</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/aliquam-quis-enim-diam-commodo-leo-sed/index05eb.html?layout-thumbs=lagre_gallery">Lagre Gallery</a></li>
+</ul>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-dc76444 wpb-col-sm-100" data-id="dc76444" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-67618e0 title elementor-widget elementor-widget-heading" data-id="67618e0" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Product styles</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-87f0091 elementor-widget elementor-widget-text-editor" data-id="87f0091" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/quisque-eget-eros-sit-amet-neque-tinciduntlion-pillow-baby/index1406.html?layout-thumbs=clean">Clean<span class="hot">hot</span></a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/nunc-at-tristique-nulla-ac-sagittis-nulla/index9c6f.html?layout-thumbs=moderm">Modern</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/in-ut-nibh-id-purus-consequat-viverra-congue-sit/index491e.html?layout-thumbs=full_width">Full Width<span class="hot">hot</span></a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/nteger-vel-enim-eu-turpis-iaculis-faucibus-vel-vitae/index65ad.html?single_background=true&amp;single_background_color=dark">Dark Background</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/proin-malesuada-ligula-et-arcu-tincidunt-bibendum/index7a09.html?single_background=true&amp;single_background_color=light">Light Background</a></li>
+</ul>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		</div><span class="grower close"> </span></li>
+<li class="level-0 menu-item-2986  menu-item-has-children    menu-item menu-item-type-taxonomy menu-item-object-category  mega-menu mega-menu-fullwidth-width"><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/category/backpack/index.html"><span class="menu-item-text">Blog</span></a><div class="sub-menu">		<div data-elementor-type="wp-post" data-elementor-id="12246" class="elementor elementor-12246" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-9c716f3 content-megamenu elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9c716f3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-7c9b2cc wpb-col-sm-100" data-id="7c9b2cc" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1d51edf title elementor-widget elementor-widget-heading" data-id="1d51edf" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Blog layout</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c184aa2 elementor-widget elementor-widget-text-editor" data-id="c184aa2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/category/backpack/index.html">Blog Left Sidebar</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/category/shorts/indexb1e3.html?sidebar_blog=right">Blog Right Sidebar</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/category/fashion/index8c9d.html?sidebar_blog=full">Blog Without Sidebar</a></li>
+</ul>					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-e80e801 title elementor-widget elementor-widget-heading" data-id="e80e801" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Blog style</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c418673 elementor-widget elementor-widget-text-editor" data-id="c418673" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/category/backpack/indexcb45.html?layout_blog=list">Blog List</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/category/fashion/indexfc45.html?sidebar_blog=full&amp;layout_blog=grid">Blog Grid</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/category/fashion/index8930.html?layout_blog=modern">Blog Modern</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/category/fashion/index.html">Blog Standar</a></li>
+</ul>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-bed6ceb wpb-col-sm-100" data-id="bed6ceb" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-ede3f90 title elementor-widget elementor-widget-heading" data-id="ede3f90" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Blog format</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-bdedd2b elementor-widget elementor-widget-text-editor" data-id="bdedd2b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/2017/04/17/post-format-gallery-blogs/index.html">Post format gallery</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/2017/04/17/post-format-video-blogs/index.html">Post format video</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/2017/04/17/post-format-audio-blogs/index.html">Post format audio</a></li>
+</ul>					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-30acf83 title elementor-widget elementor-widget-heading" data-id="30acf83" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Post layout</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-02a0b81 elementor-widget elementor-widget-text-editor" data-id="02a0b81" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/2018/05/30/traveling-solo-is-awesome/index.html">Sidebar</a></li>
+<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/2018/05/30/traveling-solo-is-awesome/index8c71.html?post-single-layout=one_column">One Column</a></li>
+<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/2018/05/30/a-beautiful-sunday-morning/indexf7ca.html?post-single-layout=prallax_image">Prallax Image</a></li>
+<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/2018/05/30/traveling-solo-is-awesome/index859f.html?post-single-layout=simple_title">Simple Title</a></li>
+<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/2018/05/30/a-beautiful-sunday-morning/index6ff9.html?post-single-layout=sticky_title">Sticky Title</a></li>
+</ul>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-06777b8 wpb-col-sm-100 hidden-sm hidden-xs" data-id="06777b8" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-45f87c2 title elementor-widget elementor-widget-heading" data-id="45f87c2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Recent Post</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-38b1f54 elementor-widget elementor-widget-bwp_recent_post" data-id="38b1f54" data-element_type="widget" data-widget_type="bwp_recent_post.default">
+				<div class="elementor-widget-container">
+			<div class="bwp-recent-post blog-menu">
+ <div class="block">
+ 	  <div class="block_content">
+   <div id="recent_post_14350095141649186753" class="row">
+				<!-- Wrapper for slides -->
+						<div class="post-grid col-lg-12 col-md-12 col-sm-12 col-xs-12 post-3976 post type-post status-publish format-standard has-post-thumbnail hentry category-backpack category-fashion category-life-style tag-beauty tag-ear-care">
+					<div class="item">
+						<a class="post-thumbnail" href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/2018/05/30/traveling-solo-is-awesome/index.html" aria-hidden="true">
+						<img src="Contact_files/BLOG1-720x484.webp" class="attachment-thumbnail size-thumbnail wp-post-image entered lazyloaded" alt="Traveling Solo Is Awesome" data-lazy-src="https://wpbingosite.com/wordpress/kowine/wp-content/webp-express/webp-images/uploads/2018/05/BLOG1-720x484.jpg.webp" data-ll-status="loaded" width="720" height="484"><noscript><img width="720" height="484" src="../wp-content/webp-express/webp-images/uploads/2018/05/BLOG1-720x484.jpg.webp" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Traveling Solo Is Awesome" /></noscript>						</a>
+						<div class="post-content">
+							<h2 class="entry-title"><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/2018/05/30/traveling-solo-is-awesome/index.html">Traveling Solo Is Awesome</a></h2>
+							<div class="day-cmt">
+								<span class="entry-date"><time class="entry-date" datetime="2018-05-30T04:42:28+00:00">May 30, 2018</time></span>								<div class="comments-link">
+									<a href="#respond">
+																																	4<span> Comments</span>																														</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- #post-## -->	
+							<!-- Wrapper for slides -->
+						<div class="post-grid col-lg-12 col-md-12 col-sm-12 col-xs-12 post-3974 post type-post status-publish format-image has-post-thumbnail hentry category-backpack category-fashion category-shorts tag-baby-needs post_format-post-format-image">
+					<div class="item">
+						<a class="post-thumbnail" href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/2018/05/30/a-beautiful-sunday-morning/index.html" aria-hidden="true">
+						<img src="Contact_files/BLOG2-720x484.webp" class="attachment-thumbnail size-thumbnail wp-post-image entered lazyloaded" alt="A Beautiful Sunday Morning" data-lazy-src="https://wpbingosite.com/wordpress/kowine/wp-content/webp-express/webp-images/uploads/2018/05/BLOG2-720x484.jpg.webp" data-ll-status="loaded" width="720" height="484"><noscript><img width="720" height="484" src="../wp-content/webp-express/webp-images/uploads/2018/05/BLOG2-720x484.jpg.webp" class="attachment-thumbnail size-thumbnail wp-post-image" alt="A Beautiful Sunday Morning" /></noscript>						</a>
+						<div class="post-content">
+							<h2 class="entry-title"><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/2018/05/30/a-beautiful-sunday-morning/index.html">A Beautiful Sunday Morning</a></h2>
+							<div class="day-cmt">
+								<span class="entry-date"><time class="entry-date" datetime="2018-05-30T04:40:39+00:00">May 30, 2018</time></span>								<div class="comments-link">
+									<a href="#respond">
+																																	1<span> Comment</span>																														</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- #post-## -->	
+							<!-- Wrapper for slides -->
+						<div class="post-grid col-lg-12 col-md-12 col-sm-12 col-xs-12 post-3971 post type-post status-publish format-image has-post-thumbnail hentry category-backpack category-fashion category-life-style tag-electric tag-fashion post_format-post-format-image">
+					<div class="item">
+						<a class="post-thumbnail" href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/2018/05/30/kitchen-inspired-on-japanese/index.html" aria-hidden="true">
+						<img src="Contact_files/BLOG3-720x484.webp" class="attachment-thumbnail size-thumbnail wp-post-image entered lazyloaded" alt="Kitchen inspired on Japanese" data-lazy-src="https://wpbingosite.com/wordpress/kowine/wp-content/webp-express/webp-images/uploads/2018/05/BLOG3-720x484.jpg.webp" data-ll-status="loaded" width="720" height="484"><noscript><img width="720" height="484" src="../wp-content/webp-express/webp-images/uploads/2018/05/BLOG3-720x484.jpg.webp" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Kitchen inspired on Japanese" /></noscript>						</a>
+						<div class="post-content">
+							<h2 class="entry-title"><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/2018/05/30/kitchen-inspired-on-japanese/index.html">Kitchen inspired on Japanese</a></h2>
+							<div class="day-cmt">
+								<span class="entry-date"><time class="entry-date" datetime="2018-05-30T04:33:26+00:00">May 30, 2018</time></span>								<div class="comments-link">
+									<a href="#respond">
+																																	1<span> Comment</span>																														</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- #post-## -->	
+					   </div>
+  </div>
+ </div>
+</div>
+		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		</div><span class="grower close"> </span></li>
+<li class="level-0 menu-item-12288      menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children  std-menu"><a href="#"><span class="menu-item-text">Page</span></a>
+<ul class="sub-menu">
+	<li class="level-1 menu-item-10694      menu-item menu-item-type-post_type menu-item-object-page  std-menu"><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/about-us/index.html">About Us</a></li>
+	<li class="level-1 menu-item-15116      menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-15115 current_page_item  std-menu"><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/contact/index.html">Contact</a></li>
+	<li class="level-1 menu-item-14475      menu-item menu-item-type-post_type menu-item-object-page  std-menu"><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/faq/index.html">Faq</a></li>
+	<li class="level-1 menu-item-12290      menu-item menu-item-type-custom menu-item-object-custom  std-menu"><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/404.html">Page 404</a></li>
+</ul>
+<span class="grower close"> </span></li>
+</ul></div></nav>
+
+</div>
+
+					</div>
+				</nav> 
+			</div>       
+		</div>									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 header-right">			
+								<div class="header-page-link">
+									<div class="login-header">
+																					<a class="active-login" href="#">LOGIN / REGISTER</a>
+														<div class="form-login-register">
+			<div class="remove-form-login-register"></div>
+			<div class="box-form-login">
+				<div class="box-content">
+					<div class="form-login active">
+						<form method="post" class="login">
+							<div class="login-top">
+								<h2>Sign in</h2>
+								<div class="button-next-reregister">Create An Account</div>
+							</div>
+							<div class="content">
+																<div class="username">
+									<label>Uesrname or email</label>
+									<input type="text" required="required" class="input-text" name="username" id="username" placeholder="Your name">
+								</div>
+								<div class="password">
+									<label>Password</label>
+									<input class="input-text" required="required" type="password" name="password" id="password" placeholder="Password">
+								</div>
+								<div class="rememberme-lost">
+									<div class="rememberme">
+										<input name="rememberme" type="checkbox" id="rememberme" value="forever">
+										<label for="rememberme" class="inline">Remember me</label>
+									</div>
+									<div class="lost_password">
+										<a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/my-account/lost-password/index.html">Lost your password?</a>
+									</div>
+								</div>
+								<div class="button-login">
+									<input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="2151aaae21"><input type="hidden" name="_wp_http_referer" value="/wordpress/kowine/contact/">									<input type="submit" class="button" name="login" value="Login"> 
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="form-register">
+						<form method="post" class="register">
+							<div class="login-top">
+								<h2>Register</h2>
+								<div class="button-next-login">Already has an account</div>
+							</div>
+							<div class="content">
+																								<div class="email">
+									<label>Email</label>
+									<input type="email" class="input-text" placeholder="Email" name="email" id="reg_email">
+								</div>
+																	<div class="password">
+										<label>Password</label>
+										<input type="password" class="input-text" placeholder="Password" name="password" id="reg_password">
+									</div>
+																<!-- Spam Trap -->
+								<div style="left: -999em; position: absolute;"><label for="trap">Anti-spam</label><input type="text" name="email_2" id="trap" tabindex="-1"></div>
+								<div class="woocommerce-privacy-policy-text"></div>																<div class="button-register">
+									<input type="hidden" id="woocommerce-register-nonce" name="woocommerce-register-nonce" value="f16cd22231"><input type="hidden" name="_wp_http_referer" value="/wordpress/kowine/contact/">									<input type="submit" class="button" name="register" value="Register">
+								</div>
+															</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+																				</div>	
+									<!-- Begin Search -->
+																		<div class="search-box search-dropdown">
+										<div class="search-toggle"><i class="icon-search"></i></div>
+										<div class="dropdown-search">	<form role="search" method="get" class="search-from ajax-search" action="https://wpbingosite.com/wordpress/kowine/" data-admin="https://wpbingosite.com/wordpress/kowine/wp-admin/admin-ajax.php" data-noresult="No Result" data-limit="6">
+			
+		<div class="search-box">
+			<button id="searchsubmit" class="btn" type="submit">
+				<i class="icon-search"></i>
+				<span>search</span>
+			</button>
+			<input type="text" name="s" id="s" class="input-search s" placeholder="Search...">
+			<div class="result-search-products-content">
+				<ul class="result-search-products">
+				</ul>
+			</div>
+		</div>
+		<input type="hidden" name="post_type" value="product">
+	</form>
+</div>
+									</div>
+																		<!-- End Search -->
+																		<div class="wishlist-box">
+										<a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/wishlist/index.html"><i class="icon2-heart"></i></a>
+									</div>
+																											<div class="kowine-topcart dropdown light">
+										<div class="dropdown mini-cart top-cart" data-text_added="Product was added to cart successfully!">
+	<div class="remove-cart-shadow"></div>
+  <a class="dropdown-toggle cart-icon" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	<div class="icons-cart"><i class="icon2-shopping-bag"></i><span class="cart-count">0</span></div>
+  </a>
+  <div class="dropdown-menu cart-popup">
+	<div class="remove-cart">
+		<a class="dropdown-toggle cart-remove" data-toggle="dropdown" data-hover="dropdown" data-delay="0" href="#" title="View your shopping cart">
+			Close<i class="icon_close"></i>
+		</a>
+	</div>
+	<div class="top-total-cart">Shopping Cart(0)</div>
+	<div class="cart-icon-big"></div>
+<ul class="cart_list product_list_widget">
+			<li class="empty">
+			<span>No products in the cart.</span>
+			<a class="go-shop" href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/shop/index.html">GO TO SHOP			<i aria-hidden="true" class="arrow_right"></i></a>
+		</li>
+	</ul><!-- end product list -->
+<div class="free-order">Free Shipping on All <span>Orders Over $75</span></div>
+  </div>
+</div>									</div>
+																	</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- End header-wrapper -->
+					</div>
+	</header><!-- End #bwp-header -->	<div id="bwp-main" class="bwp-main">
+			<div data-bg="https://wpbingosite.com/wordpress/kowine/wp-content/webp-express/webp-images/uploads/2021/06/bg-breadcrumb.jpg.webp" data-bg_default="https://wpbingosite.com/wordpress/kowine/wp-content/uploads/2021/06/bg-breadcrumb.jpg" class="page-title bwp-title rocket-lazyload" style="">
+			<div class="container">	
+								<div class="content-title-heading">
+		<span class="back-to-shop">Shop</span>
+		<h1 class="text-title-heading">
+			Contact		</h1>
+	</div><!-- Page Title -->
+							<div id="breadcrumb" class="breadcrumb"><div class="bwp-breadcrumb"><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/index.html">Home</a> <span class="delimiter"></span> <span class="current">Contact</span> </div></div>			
+									</div>
+		</div><!-- .container -->
+	<div class="container">
+	<div class="row">
+		<div class="col-lg-12 col-md-12">    
+			<div id="main-content" class="main-content">
+				<div id="primary" class="content-area">
+					<div id="content" class="site-content" role="main">
+						<article id="post-15115" class="post-15115 page type-page status-publish hentry">
+		<div class="entry-content clearfix">
+				<div data-elementor-type="wp-page" data-elementor-id="15115" class="elementor elementor-15115" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-7c56f50 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="7c56f50" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6e29adc" data-id="6e29adc" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-12e6a61 elementor-widget elementor-widget-bwp_google_maps" data-id="12e6a61" data-element_type="widget" data-widget_type="bwp_google_maps.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-custom-embed"><iframe loading="lazy" src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near" aria-label="London Eye, London, United Kingdom" data-rocket-lazyload="fitvidscompatible" data-lazy-src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near" data-ll-status="loaded" class="entered lazyloaded"></iframe><noscript><iframe src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near" aria-label="London Eye, London, United Kingdom"></iframe></noscript></div>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-21ddf1a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="21ddf1a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-extended">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e64cff7" data-id="e64cff7" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-b00a11e elementor-widget elementor-widget-heading" data-id="b00a11e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Customer Service</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1268ad0 elementor-widget elementor-widget-text-editor" data-id="1268ad0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
+Mirum est notare quam littera gothica, quam nunc putamus parum claram anteposuerit
+litterarum formas human.					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-d6c0d09 elementor-view-framed elementor-position-left elementor-vertical-align-middle policy-contact elementor-shape-square elementor-widget elementor-widget-icon-box" data-id="d6c0d09" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-box-wrapper">
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 368.16 368.16"><path d="M184.08 0c-75 0-136 61-136 136 0 24.69 11.07 51.24 11.54 52.36a219.32 219.32 0 0015.72 29.4l93.24 141.29c3.82 5.79 9.47 9.11 15.5 9.11s11.68-3.32 15.5-9.1l93.25-141.3a218.41 218.41 0 0015.72-29.4c.47-1.11 11.53-27.66 11.53-52.36 0-75-61-136-136-136zM293.8 182.15c-3.2 7.61-9.76 19.87-14.33 26.8l-93.25 141.3c-1.84 2.79-2.43 2.79-4.27 0L88.7 208.95a201.05 201.05 0 01-14.33-26.8c-.14-.33-10.29-24.77-10.29-46.15 0-66.17 53.83-120 120-120s120 53.83 120 120c0 21.4-10.18 45.91-10.28 46.15z"></path><path d="M184.08 64c-39.7 0-72 32.31-72 72 0 39.7 32.3 72 72 72s72-32.3 72-72c0-39.69-32.3-72-72-72zm0 128c-30.87 0-56-25.11-56-56s25.13-56 56-56 56 25.13 56 56-25.13 56-56 56z"></path></svg>				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<div class="elementor-icon-box-title">
+					<span>
+						Adress					</span>
+				</div>
+									<p class="elementor-icon-box-description">
+						807 Mize Cemetery Rd, Somerset KY, 42503					</p>
+							</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-5ac4bbe elementor-view-framed elementor-position-left elementor-vertical-align-middle policy-contact elementor-shape-square elementor-widget elementor-widget-icon-box" data-id="5ac4bbe" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-box-wrapper">
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-">
+				<svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" id="Capa_1" x="0px" y="0px" viewBox="0 0 511.999 511.999" style="enable-background:new 0 0 511.999 511.999;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M498.827,377.633l-63.649-63.649c-17.548-17.547-46.102-17.547-63.649,0l-28.931,28.931    c-13.294,13.294-34.926,13.29-48.215,0.005l-125.4-125.507c-13.325-13.325-13.327-34.892,0-48.219    c4.66-4.66,18.041-18.041,28.931-28.931c17.471-17.47,17.715-45.935-0.017-63.665l-63.632-63.432    C116.717-4.381,88.164-4.381,70.663,13.12C57.567,26.102,53.343,30.29,47.471,36.111c-63.28,63.279-63.28,166.242-0.003,229.519    l198.692,198.796c63.428,63.429,166.088,63.434,229.521,0l23.146-23.145C516.375,423.733,516.375,395.181,498.827,377.633z     M91.833,34.382c5.849-5.849,15.365-5.85,21.233,0.016l63.632,63.432c5.863,5.863,5.863,15.352,0,21.216l-10.609,10.608    l-84.81-84.81L91.833,34.382z M267.38,443.213L68.687,244.415c-48.958-48.958-51.649-125.833-8.276-178.006l84.564,84.564    c-22.22,25.189-21.294,63.572,2.787,87.653l125.396,125.501c0.001,0.001,0.003,0.003,0.004,0.004    c24.055,24.056,62.436,25.042,87.656,2.792l84.566,84.566C393.377,494.787,316.675,492.508,267.38,443.213z M477.612,420.065    l-10.609,10.609l-84.865-84.866l10.607-10.608c5.85-5.849,15.367-5.85,21.217,0l63.649,63.649    C483.461,404.699,483.461,414.217,477.612,420.065z"></path>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<div class="elementor-icon-box-title">
+					<span>
+						Phone 					</span>
+				</div>
+									<p class="elementor-icon-box-description">
+						+41 71 227 76 90					</p>
+							</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-556629b elementor-view-framed elementor-position-left elementor-vertical-align-middle policy-contact elementor-shape-square elementor-widget elementor-widget-icon-box" data-id="556629b" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-box-wrapper">
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-">
+				<svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" id="Capa_1" x="0px" y="0px" viewBox="0 0 477.867 477.867" style="enable-background:new 0 0 477.867 477.867;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M460.8,68.267H17.067C7.641,68.267,0,75.908,0,85.333v307.2c0,9.426,7.641,17.067,17.067,17.067H460.8    c9.426,0,17.067-7.641,17.067-17.067v-307.2C477.867,75.908,470.226,68.267,460.8,68.267z M432.811,102.4L238.933,251.529    L45.056,102.4H432.811z M443.733,375.467h-409.6V137.062L228.54,286.6c6.13,4.707,14.657,4.707,20.787,0l194.406-149.538V375.467z    "></path>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<div class="elementor-icon-box-title">
+					<span>
+						Email					</span>
+				</div>
+									<p class="elementor-icon-box-description">
+						 sayhello@funio.com					</p>
+							</div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-bf34dcf" data-id="bf34dcf" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-081dfe7 elementor-view-default elementor-widget elementor-widget-icon" data-id="081dfe7" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg xmlns="http://www.w3.org/2000/svg" height="511pt" viewBox="-9 0 511 511.99965" width="511pt"><path d="m490.96875 463.679688-30.644531-39.507813c-28.933594-37.300781-65.699219-67.578125-107.554688-88.800781 22.59375-22.472656 37.71875-51.621094 42.976563-83.226563l25.179687-151.386719c.6875-4.113281-1.253906-8.21875-4.863281-10.300781l-154.351562-89.117187c-3.613282-2.085938-8.136719-1.710938-11.355469.9375l-118.515625 97.503906c-31.863282 26.214844-51.988282 64.839844-55.21875 105.976562-.027344.347657-.039063.691407-.066406 1.035157-3.476563-10.542969-6.453126-21.285157-8.882813-32.203125-3.488281-15.664063-17.132813-26.601563-33.179687-26.601563-9.75 0-19.042969 4.195313-25.492188 11.507813s-9.453125 17.054687-8.234375 26.730468c9.863281 78.367188 42.015625 151.6875 92.976563 212.035157 5.96875 7.070312 12.320312 13.816406 18.972656 20.25l-19.574219 33.90625-53.554687-30.921875c-4.785157-2.761719-10.902344-1.121094-13.660157 3.660156-2.761719 4.785156-1.125 10.898438 3.660157 13.660156l124.429687 71.839844c1.574219.910156 3.292969 1.339844 4.988281 1.339844 3.457032 0 6.820313-1.792969 8.671875-5 2.761719-4.78125 1.121094-10.898438-3.660156-13.660156l-53.554687-30.917969 17.453124-30.230469c21.078126 17.578125 44.742188 32.066406 70.03125 42.726562l86.097657 36.296876c1.269531.535156 2.585937.789062 3.882812.789062 3.898438 0 7.609375-2.296875 9.21875-6.117188 2.144531-5.089843-.242187-10.953124-5.328125-13.101562l-86.101562-36.292969c-37.207032-15.6875-70.644532-40.28125-96.691406-71.128906-48.460938-57.386719-79.035157-127.109375-88.414063-201.628906-.511719-4.042969.695313-7.949219 3.390625-11.003907 2.691406-3.054687 6.417969-4.738281 10.492188-4.738281 6.605468 0 12.222656 4.503907 13.65625 10.953125 9.859374 44.261719 27.992187 85.890625 53.292968 122.921875 1.351563 2.046875 2.765625 4.058594 4.21875 6.046875 11.328125 15.855469 23.984375 30.832032 37.90625 44.753906l38.023438 38.027344c6.054687 6.054688 14.105468 9.386719 22.664062 9.386719s16.609375-3.332031 22.664063-9.386719c12.492187-12.496094 12.492187-32.828125 0-45.324218l-64.1875-64.1875c-3.621094-3.621094-5.613281-8.433594-5.613281-13.550782 0-5.117187 1.992187-9.929687 5.613281-13.546875 7.46875-7.472656 19.625-7.472656 27.097656 0l14.425781 14.425781c31.804688 31.808594 69.234375 56.09375 111.242188 72.179688 50.960937 19.519531 95.578125 52.625 129.023437 95.746094l30.648438 39.507812c3.382812 4.363282 9.667969 5.15625 14.03125 1.769532 4.363281-3.386719 5.15625-9.667969 1.769531-14.03125zm-346.421875-348.453126 113.164063-93.101562 25.394531 14.660156-53.71875 44.191406c-4.261719 3.511719-4.875 9.8125-1.367188 14.078126 1.976563 2.402343 4.839844 3.644531 7.730469 3.644531 2.234375 0 4.484375-.746094 6.347656-2.277344l59.507813-48.957031 98.453125 56.84375-16.839844 101.242187c-7.574219 5.414063-58.617188 37.761719-140.234375-6.175781-51.859375-27.921875-92.917969-26.933594-118.230469-21.1875-9.882812 2.242188-18.210937 5.367188-24.890625 8.492188 6.734375-27.808594 22.402344-53.125 44.683594-71.453126zm59.707031 264.851563c-3.21875 0-6.246094-1.253906-8.519531-3.53125l-7.921875-7.917969c.835938.332032 1.671875.667969 2.511719.992188 7.339843 2.824218 14.933593 5.074218 22.625 6.734375-.0625.0625-.113281.132812-.175781.195312-2.273438 2.273438-5.300782 3.527344-8.519532 3.527344zm14.140625-125.714844-14.425781-14.425781c-15.269531-15.269531-40.113281-15.269531-55.382812 0-7.394532 7.394531-11.472657 17.230469-11.472657 27.691406 0 10.460938 4.074219 20.292969 11.472657 27.691406l59.058593 59.058594c-3.425781-1.007812-6.816406-2.144531-10.144531-3.425781-18.863281-7.253906-36.394531-17.375-52.109375-30.085937-8.929687-7.222657-16.757813-15.488282-23.410156-24.519532-1.324219-1.855468-2.628907-3.726562-3.914063-5.605468-15.269531-23.160157-23.074218-50.804688-21.769531-79.128907 11.609375-8.105469 60.492187-35.925781 137.207031 5.371094 35.898438 19.324219 66.746094 25.097656 90.792969 25.097656 10.628906 0 19.933594-1.125 27.75-2.710937 10.894531-2.207032 19.9375-5.460938 26.992187-8.664063l-3.023437 18.15625c-4.976563 29.921875-20.128906 57.316407-42.765625 77.429688-3.503906-1.488281-7.039062-2.917969-10.601562-4.285157-39.371094-15.078124-74.445313-37.835937-104.253907-67.644531zm0 0"></path><path d="m208.722656 120.929688c2.628906 0 5.210938-1.070313 7.070313-2.929688s2.929687-4.441406 2.929687-7.070312c0-2.628907-1.070312-5.210938-2.929687-7.070313-1.863281-1.859375-4.429688-2.929687-7.070313-2.929687-2.628906 0-5.210937 1.070312-7.070312 2.929687s-2.929688 4.441406-2.929688 7.070313c0 2.628906 1.070313 5.210937 2.929688 7.070312s4.441406 2.929688 7.070312 2.929688zm0 0"></path></svg>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-d61af38 elementor-widget elementor-widget-heading" data-id="d61af38" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Send us a message</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4994da7 elementor-widget elementor-widget-spacer" data-id="4994da7" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-672b46a elementor-widget elementor-widget-shortcode" data-id="672b46a" data-element_type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-shortcode"><div role="form" class="wpcf7" id="wpcf7-f8-p15115-o1" dir="ltr" lang="en-US">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="https://wpbingosite.com/wordpress/kowine/contact/#wpcf7-f8-p15115-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="8">
+<input type="hidden" name="_wpcf7_version" value="5.4.2">
+<input type="hidden" name="_wpcf7_locale" value="en_US">
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f8-p15115-o1">
+<input type="hidden" name="_wpcf7_container_post" value="15115">
+<input type="hidden" name="_wpcf7_posted_data_hash" value="">
+</div>
+<div class="contact-us-form">
+<div class="row">
+<div class="col-sm-12 col-md-6">
+        <span class="wpcf7-form-control-wrap Name"><input type="text" name="Name" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Your name"></span>
+    </div>
+<div class="col-sm-12 col-md-6">
+        <span class="wpcf7-form-control-wrap Email"><input type="email" name="Email" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Your email"></span>
+    </div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<span class="wpcf7-form-control-wrap textarea-982"><textarea name="textarea-982" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Your message..."></textarea></span>
+</div>
+</div>
+<div class="button">
+<input type="submit" value="Send A Message" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span>
+</div>
+</div>
+<div class="wpcf7-response-output" aria-hidden="true"></div></form></div></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-a91ee2e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a91ee2e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-extended">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-aeb4c41" data-id="aeb4c41" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-58985eb text-block-wapper-2 elementor-widget-tablet__width-auto elementor-widget elementor-widget-text-editor" data-id="58985eb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<h2>Sign up for our NEWLETTERS</h2><p>Keep updated with the latest and greatest from our wonderful world of wine.</p>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6575b92" data-id="6575b92" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-6615f0b elementor-widget__width-inherit elementor-widget elementor-widget-shortcode" data-id="6615f0b" data-element_type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-shortcode"><div role="form" class="wpcf7" id="wpcf7-f1287-p15115-o2" dir="ltr" lang="en-US">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="https://wpbingosite.com/wordpress/kowine/contact/#wpcf7-f1287-p15115-o2" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="1287">
+<input type="hidden" name="_wpcf7_version" value="5.4.2">
+<input type="hidden" name="_wpcf7_locale" value="en_US">
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1287-p15115-o2">
+<input type="hidden" name="_wpcf7_container_post" value="15115">
+<input type="hidden" name="_wpcf7_posted_data_hash" value="">
+</div>
+<div class="wpbingo-newsletter newsletter-default">
+<div class="content-newsletter">
+<span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Your email address..."></span><span class="clearfix"><input type="submit" value="SUBMIT" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span></span>
+</div>
+</div>
+<div class="wpcf7-response-output" aria-hidden="true"></div></form></div></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+			</div><!-- .entry-content -->
+</article><!-- #post-## -->					</div><!-- #content -->
+				</div><!-- #primary -->
+			</div><!-- #main-content -->
+		</div>   
+    </div>
+</div>
+	</div><!-- #main -->
+										<footer id="bwp-footer" class="bwp-footer footer-1">
+						<div data-elementor-type="wp-post" data-elementor-id="11196" class="elementor elementor-11196" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-5fc90d6 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="5fc90d6" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5e31be6" data-id="5e31be6" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-e72b7aa elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e72b7aa" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-extended">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-22c6aff" data-id="22c6aff" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-a1aadcc footer-title elementor-widget elementor-widget-heading" data-id="a1aadcc" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">CONTACT US</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-2fcde35 list-link elementor-widget elementor-widget-text-editor" data-id="2fcde35" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<p><strong>Head Office:</strong> 26 Wyle Cop, Shrewsbury, <br>Shropshire, SY1 1XD<br><strong>Tel:</strong> 01743 234500<br><strong>Email:</strong> support&amp;kowine.com</p>					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-15663cc elementor-widget elementor-widget-shortcode" data-id="15663cc" data-element_type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-shortcode"><ul class="social-link"><li><a href="#"><i class="fa fa-twitter"></i></a></li><li><a href="#"><i class="fa fa-instagram"></i></a></li><li><a href="#"><i class="fa fa-linkedin"></i></a></li><li><a href="#"><i class="fa fa-pinterest"></i></a></li></ul></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-95e0143" data-id="95e0143" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-a666873 footer-title elementor-widget elementor-widget-heading" data-id="a666873" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">CUSTOMER SERVICES</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a44009d list-link elementor-widget elementor-widget-text-editor" data-id="a44009d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/faq/index.html">Contact &amp; FAQ</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/faq/index.html">Track Your Order</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/faq/index.html">Returns &amp; Refunds</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/faq/index.html">Shipping &amp; Delivery</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/faq/index.html">Interest Free Finance</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/faq/index.html">Cipmoney</a></li>
+</ul>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-7f880a0" data-id="7f880a0" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-247c29b footer-title elementor-widget elementor-widget-heading" data-id="247c29b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">ABOUT US</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c817708 list-link elementor-widget elementor-widget-text-editor" data-id="c817708" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/about-us/index.html">Our story</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/about-us/index.html">The team</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/about-us/index.html">Press</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/about-us/index.html">Jobs</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/category/backpack/index.html">Blog</a></li>
+ 	<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/contact/index.html">Contact</a></li>
+</ul>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-cd6bc9e" data-id="cd6bc9e" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-bfa9c1c footer-title elementor-widget elementor-widget-heading" data-id="bfa9c1c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">DISCOVER MORE</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-0e52f74 list-link elementor-widget elementor-widget-text-editor" data-id="0e52f74" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<ul>
+<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/contact/index.html">Twiter</a></li>
+<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/contact/index.html">Facebook</a></li>
+<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/contact/index.html">Instagram</a></li>
+<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/contact/index.html">Pinterest</a></li>
+<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/contact/index.html">Jobs</a></li>
+<li><a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/contact/index.html">Contact</a></li>
+</ul>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-a025d79 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="a025d79" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-ecf8408 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ecf8408" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-extended">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5b092a2" data-id="5b092a2" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-3f91a91 elementor-widget__width-auto elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="3f91a91" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				Copyright © 2021 Kowines Ltd.					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-64689a2" data-id="64689a2" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1d216c6 elementor-widget elementor-widget-image" data-id="1d216c6" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+												<img src="Contact_files/payment.webp" class="attachment-full size-full entered lazyloaded" alt="" data-lazy-src="../wp-content/webp-express/webp-images/uploads/2020/06/payment.png.webp" data-ll-status="loaded" width="397" height="32"><noscript><img width="397" height="32" src="../wp-content/webp-express/webp-images/uploads/2020/06/payment.png.webp" class="attachment-full size-full" alt="" /></noscript>														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+					</footer>
+			</div><!-- #page -->
+	<div class="search-overlay">	
+		<div class="container wrapper-search">
+			<div class="search-top">
+				<h2>what are you looking for?</h2>
+				<div class="close-search">close<i class="icon_close"></i></div>
+			</div>
+				<form role="search" method="get" class="search-from ajax-search" action="https://wpbingosite.com/wordpress/kowine/" data-admin="https://wpbingosite.com/wordpress/kowine/wp-admin/admin-ajax.php" data-noresult="No Result" data-limit="6">
+			
+		<div class="search-box">
+			<button id="searchsubmit" class="btn" type="submit">
+				<i class="icon-search"></i>
+				<span>search</span>
+			</button>
+			<input type="text" name="s" id="s" class="input-search s" placeholder="Search...">
+			<div class="result-search-products-content">
+				<ul class="result-search-products">
+				</ul>
+			</div>
+		</div>
+		<input type="hidden" name="post_type" value="product">
+	</form>
+		
+		</div>	
+	</div>
+	<div class="bwp-quick-view">
+	</div>	
+		<div class="back-top button-show">
+		<i class="arrow_carrot-up"></i>
+	</div>
+				
+		<script type="text/javascript">
+			window.RS_MODULES = window.RS_MODULES || {};
+			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+			window.RS_MODULES.defered = false;
+			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+			window.RS_MODULES.type = 'compiled';
+		</script>
+		                    <div id="woosw-area" class="woosw-area">
+                        <div class="woosw-inner">
+                            <div class="woosw-content">
+                                <div class="woosw-content-top">
+									Wishlist                                    <span class="woosw-count">0</span>
+                                    <span class="woosw-close"></span>
+                                </div>
+                                <div class="woosw-content-mid"></div>
+                                <div class="woosw-content-bot">
+                                    <div class="woosw-content-bot-inner">
+								<span class="woosw-page">
+									<a href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/wishlist/index.html">Open wishlist page</a>
+								</span>
+                                        <span class="woosw-continue" data-url="">
+									Continue shopping								</span>
+                                    </div>
+                                    <div class="woosw-notice"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+								<link rel="preload" as="font" id="rs-icon-set-revicon-woff" href="http://192.168.3.27:8899/wpbingosite.com/wordpress/kowine/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.woff?5510888" type="font/woff" crossorigin="anonymous" media="all">
+	<script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	
+
+
+
+
+
+<style id="rs-plugin-settings-inline-css" type="text/css">
+.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
+</style>
+<script type="text/javascript" src="Contact_files/regenerator-runtime.js" id="regenerator-runtime-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/wp-polyfill.js" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/wpbingosite.com\/wordpress\/kowine\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script data-minify="1" type="text/javascript" src="Contact_files/index74c4.js" id="contact-form-7-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/rbtools.js" async="" id="tp-tools-js"></script>
+<script type="text/javascript" src="Contact_files/rs6.js" async="" id="revmin-js"></script>
+<script type="text/javascript" src="Contact_files/jquery.js" id="jquery-blockui-js" defer="defer"></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wordpress\/kowine\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/wordpress\/kowine\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/wpbingosite.com\/wordpress\/kowine\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="Contact_files/add-to-cart.js" id="wc-add-to-cart-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/js.js" id="js-cookie-js" defer="defer"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wordpress\/kowine\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/wordpress\/kowine\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="Contact_files/woocommerce.js" id="woocommerce-js" defer="defer"></script>
+<script type="text/javascript" id="wc-cart-fragments-js-extra">
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wordpress\/kowine\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/wordpress\/kowine\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_cac3de8eaa4a0fd606f03c750941a189","fragment_name":"wc_fragments_cac3de8eaa4a0fd606f03c750941a189","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="Contact_files/cart-fragments.js" id="wc-cart-fragments-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/core.js" id="jquery-ui-core-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/mouse.js" id="jquery-ui-mouse-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/slider.js" id="jquery-ui-slider-js" defer="defer"></script>
+<script data-minify="1" type="text/javascript" src="Contact_files/wpbingo74c4.js" id="bwp_wpbingo_js-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/jquery_007.js" id="jquery-cookie-js" defer="defer"></script>
+<script data-minify="1" type="text/javascript" src="Contact_files/newsletter74c4.js" id="wpbingo-newsletter-js" defer="defer"></script>
+<script type="text/javascript" id="bwp_woocommerce_filter-js-extra">
+/* <![CDATA[ */
+var filter_ajax = {"ajaxurl":"https:\/\/wpbingosite.com\/wordpress\/kowine\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script data-minify="1" type="text/javascript" src="Contact_files/filter74c4.js" id="bwp_woocommerce_filter-js" defer="defer"></script>
+<script type="text/javascript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/wordpress\/kowine(\/(.+\/)?feed\/?.+\/?|\/(?:.+\/)?embed\/|\/checkout\/|\/cart\/|\/my-account\/|\/wc-api\/v(.*)|\/(index\\.php\/)?wp\\-json(\/.*|$))|\/wp-admin\/|\/logout\/|\/wp-login.php","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|php|pdf|html|htm","siteUrl":"https:\/\/wpbingosite.com\/wordpress\/kowine","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("https://wpbingosite.com/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("https://wpbingosite.com/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script type="text/javascript" src="Contact_files/perfect-scrollbar.js" id="perfect-scrollbar-js" defer="defer"></script>
+<script type="text/javascript" id="woosw-frontend-js-extra">
+/* <![CDATA[ */
+var woosw_vars = {"ajax_url":"https:\/\/wpbingosite.com\/wordpress\/kowine\/wp-admin\/admin-ajax.php","menu_action":"open_popup","copied_text":"Copied the wishlist link:","menu_text":"Wishlist","wishlist_url":"https:\/\/wpbingosite.com\/wordpress\/kowine\/wishlist\/","button_text":"Add to wishlist","button_action":"list","button_text_added":"Browse wishlist","button_action_added":"popup"};
+/* ]]> */
+</script>
+<script data-minify="1" type="text/javascript" src="Contact_files/frontend74c4_003.js" id="woosw-frontend-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/popper.js" id="popper-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/bootstrap.js" id="bootstrap-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/jquery_005.js" id="jquery-mmenu-all-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/slick.js" id="slick-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/instafeed.js" id="instafeed-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/jquery_003.js" id="jquery-countdown-js" defer="defer"></script>
+<script data-minify="1" type="text/javascript" src="Contact_files/jquery_002.js" id="jquery-elevatezoom-js" defer="defer"></script>
+<script data-minify="1" type="text/javascript" src="Contact_files/jquery_004.js" id="jquery-circlestime-js" defer="defer"></script>
+<script data-minify="1" type="text/javascript" src="Contact_files/360imagerotate74c4.js" id="360imagerotate-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/photoswipe.js" id="photoswipe-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/photoswipe-ui-default.js" id="photoswipe-ui-default-js" defer="defer"></script>
+<script data-minify="1" type="text/javascript" src="Contact_files/portfolio74c4.js" id="kowine-portfolio-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/sly.js" id="sly-js" defer="defer"></script>
+<script type="text/javascript" id="kowine-script-js-extra">
+/* <![CDATA[ */
+var kowine_ajax = {"ajaxurl":"https:\/\/wpbingosite.com\/wordpress\/kowine\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script data-minify="1" type="text/javascript" src="Contact_files/functions74c4.js" id="kowine-script-js" defer="defer"></script>
+<script type="text/javascript" id="kowine-script-js-after">window.addEventListener('DOMContentLoaded', function() {
+jQuery(function($){ "use strict"; $(document).on("click",".plus, .minus",function(){var t=$(this).closest(".quantity").find(".qty"),a=parseFloat(t.val()),n=parseFloat(t.attr("max")),s=parseFloat(t.attr("min")),e=t.attr("step");a&&""!==a&&"NaN"!==a||(a=0),(""===n||"NaN"===n)&&(n=""),(""===s||"NaN"===s)&&(s=0),("any"===e||""===e||void 0===e||"NaN"===parseFloat(e))&&(e=1),$(this).is(".plus")?t.val(n&&(n==a||a>n)?n:a+parseFloat(e)):s&&(s==a||s>a)?t.val(s):a>0&&t.val(a-parseFloat(e)),t.trigger("change")})});
+});</script>
+<script type="text/javascript" src="Contact_files/underscore.js" id="underscore-js" defer="defer"></script>
+<script type="text/javascript" id="wp-util-js-extra">
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wordpress\/kowine\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="Contact_files/wp-util.js" id="wp-util-js" defer="defer"></script>
+<script type="text/javascript" id="wc-add-to-cart-variation-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/wordpress\/kowine\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_make_a_selection_text":"Please select some product options before adding this product to your cart.","i18n_unavailable_text":"Sorry, this product is unavailable. Please choose a different combination."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="Contact_files/add-to-cart-variation.js" id="wc-add-to-cart-variation-js" defer="defer"></script>
+<script data-minify="1" type="text/javascript" src="Contact_files/frontend74c4.js" id="tawcvs-frontend-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/wp-embed.js" id="wp-embed-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/webpack.js" id="elementor-webpack-runtime-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/frontend-modules.js" id="elementor-frontend-modules-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/waypoints.js" id="elementor-waypoints-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/swiper.js" id="swiper-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/share-link.js" id="share-link-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/dialog.js" id="elementor-dialog-js" defer="defer"></script>
+<script type="text/javascript" id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1200,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1199,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},
+"version":"3.4.4","is_static":false,"experimentalFeatures":{"e_import_export":true,"landing-pages":true,"elements-color-picker":true,"admin-top-bar":true},"urls":{"assets":"https:\/\/wpbingosite.com\/wordpress\/kowine\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"viewport_tablet":1199,"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":15115,"title":"Contact%20%E2%80%93%20Kowine%20%E2%80%93%20Wine%20Store%20WooCommerce%20Theme","excerpt":"","featuredImage":false}};
+</script>
+<script type="text/javascript" src="Contact_files/frontend.js" id="elementor-frontend-js" defer="defer"></script>
+<script type="text/javascript" src="Contact_files/preloaded-modules.js" id="preloaded-modules-js" defer="defer"></script>
+<script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async="" src="Contact_files/lazyload.js"></script><script>class RocketElementorAnimation{constructor(){this.deviceMode=document.createElement("span"),this.deviceMode.id="elementor-device-mode",this.deviceMode.setAttribute("class","elementor-screen-only"),document.body.appendChild(this.deviceMode)}_detectAnimations(){let t=getComputedStyle(this.deviceMode,":after").content.replace(/"/g,"");this.animationSettingKeys=this._listAnimationSettingsKeys(t),document.querySelectorAll(".elementor-invisible[data-settings]").forEach(t=>{const e=t.getBoundingClientRect();if(e.bottom>=0&&e.top<=window.innerHeight)try{this._animateElement(t)}catch(t){}})}_animateElement(t){const e=JSON.parse(t.dataset.settings),i=e._animation_delay||e.animation_delay||0,n=e[this.animationSettingKeys.find(t=>e[t])];if("none"===n)return void t.classList.remove("elementor-invisible");t.classList.remove(n),this.currentAnimation&&t.classList.remove(this.currentAnimation),this.currentAnimation=n;let s=setTimeout(()=>{t.classList.remove("elementor-invisible"),t.classList.add("animated",n),this._removeAnimationSettings(t,e)},i);window.addEventListener("rocket-startLoading",function(){clearTimeout(s)})}_listAnimationSettingsKeys(t="mobile"){const e=[""];switch(t){case"mobile":e.unshift("_mobile");case"tablet":e.unshift("_tablet");case"desktop":e.unshift("_desktop")}const i=[];return["animation","_animation"].forEach(t=>{e.forEach(e=>{i.push(t+e)})}),i}_removeAnimationSettings(t,e){this._listAnimationSettingsKeys().forEach(t=>delete e[t]),t.dataset.settings=JSON.stringify(e)}static run(){const t=new RocketElementorAnimation;requestAnimationFrame(t._detectAnimations.bind(t))}}document.addEventListener("DOMContentLoaded",RocketElementorAnimation.run);</script>
+
+
+
+<span id="elementor-device-mode" class="elementor-screen-only"></span><span id="elementor-device-mode" class="elementor-screen-only"></span></body><!-- Mirrored from wpbingosite.com/wordpress/kowine/contact/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Apr 2022 05:48:24 GMT --></html>
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1649186753 -->
